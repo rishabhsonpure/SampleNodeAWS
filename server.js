@@ -5,7 +5,7 @@ app.use(exp.static('public'));
 
 app.get('/',function(req,res){
 
-    res.sendFile(__dirname+"/public/first.html")
+    res.sendFile(__dirname+"/public/q8_thumb_img")
 });
 
 app.listen(9000,function(){
