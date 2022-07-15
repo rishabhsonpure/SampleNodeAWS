@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="..\jquery-3.6.0.min.js"></script>
+    <script src="..\jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("img").click(function () {
+                var s = $(this).attr("src");
+                $("#bigimg").attr("src", s);
+            });
+        });
+    </script>
+    <style>
+        
+        img{
+            border:2px solid brown;
+        }
+    </style>
+</head>
+<body>
+    <div id="big">
+        <img id="bigimg" src="https://wallpaperaccess.com/full/179232.jpg" height="500" width="820" />
+    </div>
+    <img src="https://wallpaperaccess.com/full/179232.jpg" height="200" width="200"/>
+    <img src="https://wallpaperaccess.com/full/179250.jpg" height="200" width="200"/>
+    <img src="https://wallpaperaccess.com/full/179266.jpg" height="200" width="200"/>
+    <img src="https://wallpaperaccess.com/full/179279.jpg" height="200" width="200"/>
+    
+    
+</body>
+</html>
